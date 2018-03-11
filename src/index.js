@@ -1,8 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.scss'
+import Header from './components/header/header.js'
+import './index.css'
 import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<div>
+  <Header/>
+  <App />
+  </div>, document.getElementById('root'))
 registerServiceWorker()
