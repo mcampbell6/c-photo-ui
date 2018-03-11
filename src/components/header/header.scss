@@ -1,0 +1,25 @@
+.headroom {
+    background: #ffffff url(./img/tartan.jpg) repeat left top;
+    color: white;
+}
+
+.nav-container {
+    padding: 0.8em;
+}
+
+.nav-container > h1 {
+    vertical-align: middle;
+    padding-left: 0.5em;
+    display: inline;
+}
+
+.nav-container > a {
+    float: right;
+    color: white;
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+
+.nav-container > img {
+    animation: none;
+}
