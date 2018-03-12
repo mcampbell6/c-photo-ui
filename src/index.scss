@@ -34,3 +34,9 @@ img {
 @import './App.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+
+//-----------------------------BOOTSTRAP OVERRIDES------------------------------
+.modal-backdrop{
+  opacity: 0.5;
+}
