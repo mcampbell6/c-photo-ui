@@ -1,2 +1,28 @@
 .App {
   text-align: center; }
+
+.welcomeImages {
+  line-height: 0;
+  column-count: 5;
+  column-gap: 0; }
+
+@media (max-width: 1200px) {
+  .welcomeImages {
+    column-count: 4; } }
+
+@media (max-width: 1000px) {
+  .welcomeImages {
+    column-count: 3; } }
+
+@media (max-width: 800px) {
+  .welcomeImages {
+    column-count: 2; } }
+
+@media (max-width: 400px) {
+  .welcomeImages {
+    column-count: 1; } }
+
+.thumbnailImage {
+  padding: 0.4em;
+  width: 100% !important;
+  height: auto !important; }
