@@ -2,7 +2,6 @@ import {connect} from 'react-redux'
 import {getThumbnails} from './actions/ThumbnailActions'
 
 const mapStateToProps = (state) => {
-  console.log('state', state)
     return {
         thumbKeys: state.thumbnails.thumbKeys
     }
