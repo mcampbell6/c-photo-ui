@@ -6,7 +6,6 @@ import reducers from './Reducers'
 import {routerMiddleware} from 'react-router-redux'
 import {persistStore, persistReducer} from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
-
 import reduxReset from 'redux-reset'
 
 class ReduxStore {
