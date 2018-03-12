@@ -52,9 +52,7 @@ export class App extends Component {
     }
 
     openModal(e) {
-      console.log('e', e.target)
-
-        this.setState({
+      this.setState({
             ...this.state,
             curImage: e.target.id,
             showModal: true

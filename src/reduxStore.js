@@ -40,7 +40,6 @@ class ReduxStore {
 
 
   resetStore() {
-    console.log("Purging Store")
     this.store.dispatch({type: 'RESET'})
     this.persistor.purge()
   }
